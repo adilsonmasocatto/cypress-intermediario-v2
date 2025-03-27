@@ -2,7 +2,7 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost',
+    baseUrl: 'https://www.google.com.br',
     env: {
       hideCredentials: true,
       requestMode: true,
